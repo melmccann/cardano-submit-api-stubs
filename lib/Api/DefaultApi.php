@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  melmccann\cardanosubmitapi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace OpenAPI\Client\Api;
+namespace melmccann\cardanosubmitapi\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use OpenAPI\Client\ApiException;
-use OpenAPI\Client\Configuration;
-use OpenAPI\Client\HeaderSelector;
-use OpenAPI\Client\ObjectSerializer;
+use melmccann\cardanosubmitapi\ApiException;
+use melmccann\cardanosubmitapi\Configuration;
+use melmccann\cardanosubmitapi\HeaderSelector;
+use melmccann\cardanosubmitapi\ObjectSerializer;
 
 /**
  * DefaultApi Class Doc Comment
  *
  * @category Class
- * @package  OpenAPI\Client
+ * @package  melmccann\cardanosubmitapi
  * @author   OpenAPI Generator team
  * @link     https://openapi-generator.tech
  */
@@ -122,7 +122,7 @@ class DefaultApi
      *
      * @param  string $content_type content_type (required)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \melmccann\cardanosubmitapi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return string|string
      */
@@ -139,7 +139,7 @@ class DefaultApi
      *
      * @param  string $content_type (required)
      *
-     * @throws \OpenAPI\Client\ApiException on non-2xx response
+     * @throws \melmccann\cardanosubmitapi\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of string|string, HTTP status code, HTTP response headers (array of strings)
      */
